@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_page_banners",
+  "info": {
+    "displayName": "banner",
+    "icon": "landscape",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Description": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "Cover": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
